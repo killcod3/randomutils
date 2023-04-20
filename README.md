@@ -24,12 +24,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/<your-username>/randomutils"
+	"github.com/killcod3/randomutils"
 )
 
 func main() {
 	// Generate a random string with a specified pattern
-	randomString, err := randomutils.GetRandomStr("????d?l")
+	// ?u = Random Uppercase , ?l = Random Lowercase , ?d = Random Digit
+	randomString, err := randomutils.GetRandomStr("?u?d?l")
 	if err != nil {
 		fmt.Println(err)
 		return
