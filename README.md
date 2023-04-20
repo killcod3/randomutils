@@ -100,4 +100,4 @@ We welcome contributions to the `randomutils` package. If you find any bugs or h
 
 ## License
 
-The `randomutils` package is released under the MIT License. See the [LICENSE](LICENSE) file for more details.
+The `randomutils` package is released under the MIT License. See the LICENSE file for more details.
